@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Temperatur Converter</h1>
+        <hr>
+        <p>Masukan suhu derajat Celcius (°C) ke kotak di bawah ini. Lalu <strong style="color: yellow;"> KLIK</strong>
+            tombol convert untuk mendapatkan hasil konversi dalam bentuk Fahrenheit </p>
+        <div>
+            <p>
+                <strong style="color: rgb(187, 187, 127);"> Celsius (°C):</strong>
+            </p>
+            <input type="text" id="celsius" placeholder="Celsius" value="" />
+        </div>
+        <button id="convert">Konversi</button>
+        <button id="reset">Reset</button>
+        <button id="reverse">Reverse</button>
+        <div>
+            <p>
+                <strong style="color: rgb(187, 187, 127);"> Fahrenheit (°F):</strong>
+            </p>
+            <input type="text" id="fahrenheit" placeholder="Fahrenheit" value="" />
+        </div>
+        <div>
+            <p>
+                <strong style="color: rgb(187, 187, 127);"> Cara Kalkulasi:</strong>
+            </p>
+            <input type="text" id="cara-kalkulasi" placeholder="Penjelasan Formula" value="" readonly />
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
